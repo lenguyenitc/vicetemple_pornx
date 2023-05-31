@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+*, *:before, *:after {
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.accordeon {
+    position:relative;
+    margin:0 auto;
+}
+.item {
+    position:relative;
+    width:100%;
+    min-height:60px;
+    margin:2px 0;
+    margin-left: 10px;
+}
+input[type="radio"], input[type="radio"] + label {
+    position:absolute;
+    width:100%;
+    height:60px;
+}
+input[type="radio"] {
+    opacity:0;
+    z-index:9;
+    cursor:pointer;
+}
+input[type="radio"] + label {
+   /* background:url('https://dl.dropboxusercontent.com/u/330966/static/accordeonDown.svg') #f5f3f2;*/
+    background-repeat:no-repeat;
+    background-position:100% 0%;
+    padding:2px 15px 0 15px;
+    font-size:18px;
+    color:#333;
+    z-index:8;
+}
+article[id^="content-"] { /* more or individual styling can be applied by using id$="number" */
+    position:relative;
+    width:100%;
+    padding:0px 15px 0px 15px;
+    height:auto;
+    max-height:0px;
+    /*background:white;*/
+    overflow:hidden;
+    -webkit-transition:all .25s;
+    -moz-transition:all .25s;
+    -o-transition:all .25s;
+    transition:all .25s;
+}
+article[id^="content-"]:before {
+    content:'';
+    position:absolute;
+   /* top:45px;*/
+    left:15px;
+    width:0;
+    height:2px;
+    /*background:tomato;*/
+    -webkit-transition:width 0s;
+    -moz-transition:width 0s;
+    -o-transition:width 0s;
+    transition:width 0s;
+}
+input[type="radio"]:hover + label {
+   /* background:url('https://dl.dropboxusercontent.com/u/330966/static/accordeonDown.svg') #fff;*/
+    background-repeat:no-repeat;
+    background-position:100% 0%;
+}
+input[type="radio"]:checked + label {
+   /* background:white;*/
+}
+input[type="radio"]:checked ~ article[id^="content-"] {
+    height:auto;
+    max-height:600px;
+    padding:55px 15px 15px 15px;
+    -webkit-transition:all .25s .25s;
+    -moz-transition:all .25s .25s;
+    -o-transition:all .25s .25s;
+    transition:all .25s .25s;
+}
+input[type="radio"]:checked ~ article[id^="content-"]:before {
+    width:40px;
+    -webkit-transition:width .3s .3s;
+    -moz-transition:width .3s .3s;
+    -o-transition:width .3s .3s;
+    transition:width .3s .3s;
+}

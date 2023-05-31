@@ -1,0 +1,2321 @@
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"POT-Creation-Date: 2020-08-26 19:00+0300\n"
+"PO-Revision-Date: 2020-08-26 19:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: _s\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: 404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Эта страница не найдена."
+
+#: 404.php:15
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "Похоже, ничего не найдено. Попробуете новый поиск?"
+
+#: 404.php:18 admin/import/arc-importer.php:445 admin/theme-activation.php:157
+#: functions.php:858 inc/widget-video.php:150 search.php:28
+#: template-parts/content-filters.php:25 template-parts/content-filters.php:40
+msgid "Random videos"
+msgstr "Случайные видео"
+
+#: admin/admin-columns.php:4
+msgid "Featured"
+msgstr "Популярные"
+
+#: admin/admin-columns.php:5 inc/category-premium.php:67
+msgid "Premium"
+msgstr "Премиум"
+
+#: admin/admin-columns.php:73 admin/admin-columns.php:100
+#, php-format
+msgid "<a href=\"%s\" "
+msgstr "<a href=\"%s\" "
+
+#: admin/import/arc-importer.php:44 admin/options.php:6
+msgid "Create Video Submit page"
+msgstr "Создать страницу Добавления видео"
+
+#: admin/import/arc-importer.php:45 admin/options.php:8
+msgid "This action will create a \"Submit a Video\" page in your admin."
+msgstr "Это действие создаст страницу «Добавить видео» в вашей админ панели."
+
+#: admin/import/arc-importer.php:46 admin/import/arc-importer.php:54
+#: admin/import/arc-importer.php:62 admin/import/arc-importer.php:70
+#: admin/import/arc-importer.php:78 admin/import/arc-importer.php:86
+#: admin/import/arc-importer.php:94 admin/import/arc-importer.php:102
+#: admin/options.php:11
+msgid "Confirm"
+msgstr "Применить"
+
+#: admin/import/arc-importer.php:47 admin/import/arc-importer.php:55
+#: admin/import/arc-importer.php:63 admin/import/arc-importer.php:71
+#: admin/import/arc-importer.php:79 admin/import/arc-importer.php:87
+#: admin/import/arc-importer.php:95 admin/import/arc-importer.php:103
+#: admin/options.php:10 functions.php:450
+msgid "Close"
+msgstr "Закрыть"
+
+#: admin/import/arc-importer.php:52
+msgid "Create Profile page"
+msgstr "Создать страницу Профиль"
+
+#: admin/import/arc-importer.php:53
+msgid "This action will create a \"My profile\" page in your admin."
+msgstr "Это действие создаст страницу «Мой профиль» в вашей админ панели."
+
+#: admin/import/arc-importer.php:60
+msgid "Create Blog page"
+msgstr "Создать страницу Блог"
+
+#: admin/import/arc-importer.php:61
+msgid "This action will create a \"Blog\" page in your admin."
+msgstr "Это действие создаст страницу «Блог» в вашей админ панели."
+
+#: admin/import/arc-importer.php:68
+msgid "Create Categories page"
+msgstr "Создать страницу Категорий"
+
+#: admin/import/arc-importer.php:69
+msgid "This action will create an illustrated categories page in your admin."
+msgstr "Это действие создаст страницу «Категории» в вашей админ панели."
+
+#: admin/import/arc-importer.php:76
+msgid "Create Tags page"
+msgstr "Создать страницу Тегов"
+
+#: admin/import/arc-importer.php:77
+msgid "This action will create a tags list page in your admin."
+msgstr "Это действие создаст страницу «Теги» в вашей админ панели."
+
+#: admin/import/arc-importer.php:84
+msgid "Create Actors page"
+msgstr "Создать страницу Актеры"
+
+#: admin/import/arc-importer.php:85
+msgid "This action will create an actors list page in your admin."
+msgstr "Это действие создаст страницу «Актеры» в вашей админ панели."
+
+#: admin/import/arc-importer.php:92
+msgid "Create Menu"
+msgstr "Создать меню"
+
+#: admin/import/arc-importer.php:93
+msgid "This action will create a menu in your admin."
+msgstr "Это действие создаст «Меню» в вашей админ панели."
+
+#: admin/import/arc-importer.php:100
+msgid "Create Widgets"
+msgstr "Создать виджеты"
+
+#: admin/import/arc-importer.php:101
+msgid "This action will integrate video block widgets in your admin."
+msgstr "Это действие создаст «Виджеты» в вашей админ панели."
+
+#: admin/import/arc-importer.php:356 admin/theme-activation.php:53
+msgid "Home"
+msgstr "Главная"
+
+#: admin/import/arc-importer.php:361 admin/theme-activation.php:58
+#: inc/cpt-blog.php:8
+msgid "Categories"
+msgstr "Категории"
+
+#: admin/import/arc-importer.php:368 admin/theme-activation.php:65
+#: inc/cpt-blog.php:35 template-video-submit.php:189
+msgid "Tags"
+msgstr "Теги"
+
+#: admin/import/arc-importer.php:375 admin/theme-activation.php:72
+#: template-video-submit.php:192
+msgid "Actors"
+msgstr "Актеры"
+
+#: admin/import/arc-importer.php:402 admin/theme-activation.php:109
+msgid "Videos being watched"
+msgstr "Видео, которые смотрят"
+
+#: admin/import/arc-importer.php:412 admin/theme-activation.php:120
+#: functions.php:852 inc/widget-video.php:148
+#: template-parts/content-filters.php:18 template-parts/content-filters.php:35
+msgid "Longest videos"
+msgstr "Длинные видео"
+
+#: admin/import/arc-importer.php:435 admin/theme-activation.php:146
+#: functions.php:846 functions.php:861 inc/widget-video.php:146
+#: template-parts/content-filters.php:10 template-parts/content-filters.php:29
+msgid "Latest videos"
+msgstr "Последние видео"
+
+#: admin/metabox.php:8
+msgid "Video information"
+msgstr "Видео шорткод"
+
+#: admin/metabox.php:16
+msgid "Premium video"
+msgstr "Премиум видео"
+
+#: admin/metabox.php:18
+msgid ""
+"Will be open after subscribe. Will display the \"Premium\" icon on video."
+msgstr ""
+"Будет доступно после подписки. Будет отображаться иконка \"Премиум\" на "
+"видео."
+
+#: admin/metabox.php:21 admin/metabox.php:36 admin/metabox.php:50
+msgid "off"
+msgstr "выключить"
+
+#: admin/metabox.php:22 admin/metabox.php:37 admin/metabox.php:51
+msgid "on"
+msgstr "включить"
+
+#: admin/metabox.php:31
+msgid "Featured video"
+msgstr "Популярные"
+
+#: admin/metabox.php:33
+msgid "Will be displayed in the carousel on your homepage."
+msgstr "Будет отображаться на главной странице в карусели."
+
+#: admin/metabox.php:45
+msgid "HD video"
+msgstr "HD видео"
+
+#: admin/metabox.php:47
+msgid "Will display a \"HD\" label over the thumb."
+msgstr "Отобразить \"HD\" иконку на видео."
+
+#: admin/metabox.php:59 template-video-submit.php:165
+msgid "Video URL"
+msgstr "Видео URL"
+
+#: admin/metabox.php:60
+msgid "Paste here the video URL or a video file (mp4, webm)."
+msgstr "Вставить здесь ссылку на видео или загрузить файл (.mp4, webm)."
+
+#: admin/metabox.php:68
+msgid "Video URL 240p"
+msgstr "Видео URL 240р"
+
+#: admin/metabox.php:69 admin/metabox.php:78 admin/metabox.php:87
+#: admin/metabox.php:96 admin/metabox.php:105 admin/metabox.php:114
+msgid "Paste here a video URL or a video file (mp4, webm)."
+msgstr "Вставить здесь ссылку на видео или загрузить файл (.mp4, webm)."
+
+#: admin/metabox.php:77
+msgid "Video URL 360p"
+msgstr "Видео URL 360р"
+
+#: admin/metabox.php:86
+msgid "Video URL 480p"
+msgstr "Видео URL 480р"
+
+#: admin/metabox.php:95
+msgid "Video URL 720p"
+msgstr "Видео URL 720р"
+
+#: admin/metabox.php:104
+msgid "Video URL 1080p"
+msgstr "Видео URL 1080р"
+
+#: admin/metabox.php:113
+msgid "Video URL 4k"
+msgstr "Видео URL 4k"
+
+#: admin/metabox.php:123
+msgid "Video embed code"
+msgstr "Встроить видео код (iframe)"
+
+#: admin/metabox.php:124
+msgid ""
+"Paste here the embed code (eg. Youtube iframe). It will automatically "
+"display the video player in the front of your site."
+msgstr ""
+"Вставить сюда iframe видео (например, YouTube iframe). Это автоматически "
+"отобразит на фронтальной части сайта видео плеер."
+
+#: admin/metabox.php:129
+msgid "Video shortcode"
+msgstr "Видео шорткод"
+
+#: admin/metabox.php:130
+msgid ""
+"Paste here the video shortcode (eg. [video src=\"...file.mp4\"] or "
+"[vicetempleplayer src=\"...file.mp4\"]). It will automatically display the video "
+"player in the front of your site."
+msgstr ""
+"Вставить сюда видео шорткод (например, [video src=\"...file.mp4\"] or "
+"[vicetempleplayer src=\"...file.mp4\"]). Это автоматически отобразит видео плеер "
+"на фронтальной части сайта."
+
+#: admin/metabox.php:134
+msgid "Hours"
+msgstr "Часы"
+
+#: admin/metabox.php:136
+msgid "Select hours"
+msgstr "Выберите часы"
+
+#: admin/metabox.php:138 admin/metabox.php:158 admin/metabox.php:227
+msgid "00"
+msgstr "00"
+
+#: admin/metabox.php:139 admin/metabox.php:159 admin/metabox.php:228
+msgid "01"
+msgstr "01"
+
+#: admin/metabox.php:140 admin/metabox.php:160 admin/metabox.php:229
+msgid "02"
+msgstr "02"
+
+#: admin/metabox.php:141 admin/metabox.php:161 admin/metabox.php:230
+msgid "03"
+msgstr "03"
+
+#: admin/metabox.php:142 admin/metabox.php:162 admin/metabox.php:231
+msgid "04"
+msgstr "04"
+
+#: admin/metabox.php:143 admin/metabox.php:163 admin/metabox.php:232
+msgid "05"
+msgstr "05"
+
+#: admin/metabox.php:144 admin/metabox.php:164 admin/metabox.php:233
+msgid "06"
+msgstr "06"
+
+#: admin/metabox.php:145 admin/metabox.php:165 admin/metabox.php:234
+msgid "07"
+msgstr "07"
+
+#: admin/metabox.php:146 admin/metabox.php:166 admin/metabox.php:235
+msgid "08"
+msgstr "08"
+
+#: admin/metabox.php:147 admin/metabox.php:167 admin/metabox.php:236
+msgid "09"
+msgstr "09"
+
+#: admin/metabox.php:148 admin/metabox.php:168 admin/metabox.php:237
+msgid "10"
+msgstr "10"
+
+#: admin/metabox.php:154
+msgid "Minutes"
+msgstr "Минуты"
+
+#: admin/metabox.php:156
+msgid "Select minutes"
+msgstr "Выберите минуты"
+
+#: admin/metabox.php:169 admin/metabox.php:238
+msgid "11"
+msgstr "11"
+
+#: admin/metabox.php:170 admin/metabox.php:239
+msgid "12"
+msgstr "12"
+
+#: admin/metabox.php:171 admin/metabox.php:240
+msgid "13"
+msgstr "13"
+
+#: admin/metabox.php:172 admin/metabox.php:241
+msgid "14"
+msgstr "14"
+
+#: admin/metabox.php:173 admin/metabox.php:242
+msgid "15"
+msgstr "15"
+
+#: admin/metabox.php:174 admin/metabox.php:243
+msgid "16"
+msgstr "16"
+
+#: admin/metabox.php:175 admin/metabox.php:244
+msgid "17"
+msgstr "17"
+
+#: admin/metabox.php:176 admin/metabox.php:245
+msgid "18"
+msgstr "18"
+
+#: admin/metabox.php:177 admin/metabox.php:246
+msgid "19"
+msgstr "19"
+
+#: admin/metabox.php:178 admin/metabox.php:247
+msgid "20"
+msgstr "20"
+
+#: admin/metabox.php:179 admin/metabox.php:248
+msgid "21"
+msgstr "21"
+
+#: admin/metabox.php:180 admin/metabox.php:249
+msgid "22"
+msgstr "22"
+
+#: admin/metabox.php:181 admin/metabox.php:250
+msgid "23"
+msgstr "23"
+
+#: admin/metabox.php:182 admin/metabox.php:251
+msgid "24"
+msgstr "24"
+
+#: admin/metabox.php:183 admin/metabox.php:252
+msgid "25"
+msgstr "25"
+
+#: admin/metabox.php:184 admin/metabox.php:253
+msgid "26"
+msgstr "26"
+
+#: admin/metabox.php:185 admin/metabox.php:254
+msgid "27"
+msgstr "27"
+
+#: admin/metabox.php:186 admin/metabox.php:255
+msgid "28"
+msgstr "28"
+
+#: admin/metabox.php:187 admin/metabox.php:256
+msgid "29"
+msgstr "29"
+
+#: admin/metabox.php:188 admin/metabox.php:257
+msgid "30"
+msgstr "30"
+
+#: admin/metabox.php:189 admin/metabox.php:258
+msgid "31"
+msgstr "31"
+
+#: admin/metabox.php:190 admin/metabox.php:259
+msgid "32"
+msgstr "32"
+
+#: admin/metabox.php:191 admin/metabox.php:260
+msgid "33"
+msgstr "33"
+
+#: admin/metabox.php:192 admin/metabox.php:261
+msgid "34"
+msgstr "34"
+
+#: admin/metabox.php:193 admin/metabox.php:262
+msgid "35"
+msgstr "35"
+
+#: admin/metabox.php:194 admin/metabox.php:263
+msgid "36"
+msgstr "36"
+
+#: admin/metabox.php:195 admin/metabox.php:264
+msgid "37"
+msgstr "37"
+
+#: admin/metabox.php:196 admin/metabox.php:265
+msgid "38"
+msgstr "38"
+
+#: admin/metabox.php:197 admin/metabox.php:266
+msgid "39"
+msgstr "39"
+
+#: admin/metabox.php:198 admin/metabox.php:267
+msgid "40"
+msgstr "40"
+
+#: admin/metabox.php:199 admin/metabox.php:268
+msgid "41"
+msgstr "41"
+
+#: admin/metabox.php:200 admin/metabox.php:269
+msgid "42"
+msgstr "42"
+
+#: admin/metabox.php:201 admin/metabox.php:270
+msgid "43"
+msgstr "43"
+
+#: admin/metabox.php:202 admin/metabox.php:271
+msgid "44"
+msgstr "44"
+
+#: admin/metabox.php:203 admin/metabox.php:272
+msgid "45"
+msgstr "45"
+
+#: admin/metabox.php:204 admin/metabox.php:273
+msgid "46"
+msgstr "46"
+
+#: admin/metabox.php:205 admin/metabox.php:274
+msgid "47"
+msgstr "47"
+
+#: admin/metabox.php:206 admin/metabox.php:275
+msgid "48"
+msgstr "48"
+
+#: admin/metabox.php:207 admin/metabox.php:276
+msgid "49"
+msgstr "49"
+
+#: admin/metabox.php:208 admin/metabox.php:277
+msgid "50"
+msgstr "50"
+
+#: admin/metabox.php:209 admin/metabox.php:278
+msgid "51"
+msgstr "51"
+
+#: admin/metabox.php:210 admin/metabox.php:279
+msgid "52"
+msgstr "52"
+
+#: admin/metabox.php:211 admin/metabox.php:280
+msgid "53"
+msgstr "53"
+
+#: admin/metabox.php:212 admin/metabox.php:281
+msgid "54"
+msgstr "54"
+
+#: admin/metabox.php:213 admin/metabox.php:282
+msgid "55"
+msgstr "55"
+
+#: admin/metabox.php:214 admin/metabox.php:283
+msgid "56"
+msgstr "56"
+
+#: admin/metabox.php:215 admin/metabox.php:284
+msgid "57"
+msgstr "57"
+
+#: admin/metabox.php:216 admin/metabox.php:285
+msgid "58"
+msgstr "58"
+
+#: admin/metabox.php:217 admin/metabox.php:286
+msgid "59"
+msgstr "59"
+
+#: admin/metabox.php:223
+msgid "Seconds"
+msgstr "Секунды"
+
+#: admin/metabox.php:225
+msgid "Select seconds"
+msgstr "Выберите секунды"
+
+#: admin/metabox.php:293
+msgid "Views"
+msgstr "Просмотры"
+
+#: admin/metabox.php:300
+msgid "Likes"
+msgstr "Лайки"
+
+#: admin/metabox.php:306
+msgid "Dislikes"
+msgstr "Дизлайки"
+
+#: admin/metabox.php:312
+msgid "Video trailer URL"
+msgstr "URL на трейлер видео"
+
+#: admin/metabox.php:313
+msgid ""
+"Paste here the video trailer URL or upload a video file (mp4 or webm). It "
+"will be used as video preview on mouse hover."
+msgstr ""
+"Вставить сюда ссылку на трейлер видео или загрузить видео в формате (.mp4 or "
+"webm). Оно будет использоваться, как превью видео при наведении мышкой на "
+"видео."
+
+#: admin/metabox.php:321
+msgid "Main thumbnail"
+msgstr "Главная картинка"
+
+#: admin/metabox.php:322
+msgid ""
+"Paste here the main thumb URL or upload an image file. If there is not a "
+"featured image, this image will be used as main thumb."
+msgstr ""
+"Вставить сюда ссылку на картинку или загрузить картинку. Она будет "
+"использоваться, как главная миниатюра для видео."
+
+#: admin/metabox.php:330
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: admin/metabox.php:331
+msgid "Used for thumbnails rotation."
+msgstr "Используется для создания слайдов видео."
+
+#: admin/metabox.php:338
+msgid "Tracking URL"
+msgstr "Ссылка источник"
+
+#: admin/metabox.php:339
+msgid ""
+"Paste here the tracking URL you want to display as link under the video in "
+"the front of your site (http://...)."
+msgstr ""
+"Вставить сюда ссылку на видео, которую хотите отобразить на фронтальной "
+"части видео (http://...)."
+
+#: admin/metabox.php:345
+msgid "Advertising under the video player"
+msgstr "Реклама поверх видео плеера"
+
+#: admin/metabox.php:346
+msgid ""
+"Paste here the code of your banner, it will be displayed under the video "
+"player."
+msgstr ""
+"Вставить сюда код рекламного баннера, который будет отображаться поверх "
+"плеера."
+
+#: admin/theme-activation.php:141
+msgid "Playlists"
+msgstr "Плейлисты"
+
+#: author.php:15
+msgid "videos"
+msgstr "видео"
+
+#: author.php:20
+msgid "My Playlists"
+msgstr "Мои плейлисты"
+
+#: author.php:31 author.php:97
+msgid "Watched videos"
+msgstr "Просмотренные видео"
+
+#: author.php:32
+msgid "Clear watch list"
+msgstr "Очистить список просмотренных видео"
+
+#: author.php:55 author.php:80 template-parts/content-featured-carousel.php:29
+#: template-parts/content-featured-carousel.php:46
+#: template-parts/loop-video.php:40 template-parts/loop-video.php:69
+#: template-parts/loop-video2.php:40 template-parts/loop-video2.php:69
+msgid "HD"
+msgstr "HD"
+
+#: author.php:77 template-actors.php:75 template-categories.php:106
+#: template-parts/content-featured-carousel.php:44
+#: template-parts/loop-photo.php:24 template-parts/loop-video.php:66
+#: template-parts/loop-video2.php:66
+msgid "No image"
+msgstr "Нет картинки"
+
+#: author.php:99
+msgid "Your watch list is empty"
+msgstr "Ваш список просмотра пуст"
+
+#: author.php:106
+msgid "Videos by:"
+msgstr "Видео от:"
+
+#: category.php:31
+msgid "Load more"
+msgstr "Загрузить еще"
+
+#: comments.php:21 comments.php:39
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:24 comments.php:41
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:25 comments.php:42
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:57 comments.php:75
+msgid "Name"
+msgstr "Ваше имя"
+
+#: comments.php:59 comments.php:77 inc/ajax-login-register.php:23
+#: template-my-profile.php:102
+msgid "Email"
+msgstr "Ваш Email"
+
+#: comments.php:61 comments.php:79 template-my-profile.php:106
+msgid "Website"
+msgstr "Ваш сайт"
+
+#: comments.php:64 comments.php:82
+msgid "Comment"
+msgstr "Ваш комментарий"
+
+#: footer.php:84
+msgid "Subscribe for watching the best porno videos!"
+msgstr "Подпишись, чтобы смотреть лучшие порно видео!"
+
+#: footer.php:90
+msgid "Enter your email"
+msgstr "Ваш email"
+
+#: footer.php:96
+msgid "You need to Login or Register for subscribe"
+msgstr "Вы должны авторизоваться или зарегистрироваться, чтобы подписаться"
+
+#: footer.php:101
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: functions.php:21 functions.php:22 functions.php:31 functions.php:32
+#: functions.php:36 functions.php:42 functions.php:43
+msgid "Videos"
+msgstr "Видео"
+
+#: functions.php:23 functions.php:33 functions.php:34
+msgid "Add Video"
+msgstr "Добавить новое видео"
+
+#: functions.php:24
+msgid "Video Categories"
+msgstr "Категории видео"
+
+#: functions.php:25
+msgid "Video Tags"
+msgstr "Видео теги"
+
+#: functions.php:35
+msgid "Edit Video"
+msgstr "Редактировать видео"
+
+#: functions.php:37
+msgid "View Videos"
+msgstr "Просмотреть видео"
+
+#: functions.php:38
+msgid "Search Videos"
+msgstr "Искать видео"
+
+#: functions.php:39
+msgid "No Videos found"
+msgstr "Видео не найдены"
+
+#: functions.php:40
+msgid "No Videos found in Trash"
+msgstr "Нет видео в корзине"
+
+#: functions.php:41
+msgid "All Videos"
+msgstr "Все видео"
+
+#: functions.php:52 functions.php:53 functions.php:57 functions.php:63
+#: functions.php:64
+msgid "Video Category"
+msgstr "Видео категории"
+
+#: functions.php:54 functions.php:55
+msgid "Add Video Category"
+msgstr "Добавить категорию видео"
+
+#: functions.php:56
+msgid "Edit Video Category"
+msgstr "Редактировать категорию видео"
+
+#: functions.php:58
+msgid "View Video Category"
+msgstr "Посмотреть категорию видео"
+
+#: functions.php:59
+msgid "Search Video Categories"
+msgstr "Найти категорию видео"
+
+#: functions.php:60
+msgid "No Video Categories found"
+msgstr "Категорий видео не найдено"
+
+#: functions.php:61
+msgid "No Video Categories found in Trash"
+msgstr "Нет категорий видео в корзине"
+
+#: functions.php:62
+msgid "All Video Categories"
+msgstr "Все категории видео"
+
+#: functions.php:71 functions.php:72 functions.php:76 functions.php:82
+#: functions.php:83
+msgid "Video Tag"
+msgstr "Видео тег"
+
+#: functions.php:73 functions.php:74
+msgid "Add Video Tag"
+msgstr "Добавить видео тег"
+
+#: functions.php:75
+msgid "Edit Video Tag"
+msgstr "Редактировать тег видео"
+
+#: functions.php:77
+msgid "View Video Tag"
+msgstr "Смотреть видео тег"
+
+#: functions.php:78
+msgid "Search Video Tags"
+msgstr "Искать видео тег"
+
+#: functions.php:79
+msgid "No Video Tags found"
+msgstr "Тегов видео не найдено"
+
+#: functions.php:80
+msgid "No Video Tags found in Trash"
+msgstr "Нет тегов видео в корзине"
+
+#: functions.php:81
+msgid "All Video Tags"
+msgstr "Все видео теги"
+
+#: functions.php:269
+msgid "Homepage"
+msgstr "Главная"
+
+#: functions.php:271
+msgid "Display widgets on your homepage."
+msgstr "Отобразить виджеты на главной."
+
+#: functions.php:278
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: functions.php:280
+msgid "Display widgets in your sidebar."
+msgstr "Отобразить виджеты в сайдбаре."
+
+#: functions.php:287
+msgid "Under the video"
+msgstr "Реклама под видео плеером"
+
+#: functions.php:289
+msgid "Display widgets under the video in your single video pages."
+msgstr "Отобразить виджеты под видео плеером."
+
+#: functions.php:296
+msgid "Footer"
+msgstr "Футер"
+
+#: functions.php:298
+msgid "Display widgets in your footer."
+msgstr "Отобразить виджеты в футере."
+
+#: functions.php:332
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: functions.php:333
+msgid "Footer menu"
+msgstr "Нижнее меню"
+
+#: functions.php:449
+msgid "Read more"
+msgstr "Читать далее"
+
+#: functions.php:487
+msgid "Data is being imported please be patient..."
+msgstr "Данные импортируются, подождите..."
+
+#: functions.php:488
+msgid "Video submit page created."
+msgstr "Страница Добавления видео создана."
+
+#: functions.php:489
+msgid "Have fun!"
+msgstr "Развлекайтесь!"
+
+#: functions.php:490
+msgid "Profile page created."
+msgstr "Страница Профиля создана."
+
+#: functions.php:491
+msgid "Blog page created."
+msgstr "Страница Блога создана."
+
+#: functions.php:492
+msgid "Categories page created."
+msgstr "Страница Категорий создана."
+
+#: functions.php:493
+msgid "Tags page created."
+msgstr "Страница Тегов создана."
+
+#: functions.php:494
+msgid "Actors page created."
+msgstr "Страница Актеров создана."
+
+#: functions.php:495
+msgid "Menu created."
+msgstr "Меню создано."
+
+#: functions.php:496
+msgid "Widgets created."
+msgstr "Виджеты созданы."
+
+#: functions.php:750
+msgid "Player Advertising"
+msgstr "Реклама в плеере"
+
+#: functions.php:758
+msgid "Advertising before play ad zone 1"
+msgstr "Реклама перед проигрыванием видео зона 1"
+
+#: functions.php:769
+msgid "Advertising before play ad zone 2"
+msgstr "Реклама перед проигрыванием видео зона 2"
+
+#: functions.php:780
+msgid "Advertising on pause ad zone 1"
+msgstr "Реклама на паузе видео зона 1"
+
+#: functions.php:791
+msgid "Advertising on pause ad zone 2"
+msgstr "Реклама на паузе видео зона 2"
+
+#: functions.php:849 inc/widget-video.php:147
+#: template-parts/content-filters.php:14 template-parts/content-filters.php:32
+msgid "Most viewed videos"
+msgstr "Видео, которые сейчас смотрят"
+
+#: functions.php:855 inc/widget-video.php:149
+#: template-parts/content-filters.php:22 template-parts/content-filters.php:38
+msgid "Popular videos"
+msgstr "Популярные видео"
+
+#: functions.php:888
+msgid ""
+"<p class=\"must-log-in\">\n"
+"                 You must be <a href=\"#arc-login\">logged in</a> to post a "
+"comment.</p>"
+msgstr ""
+"<p class=\"must-log-in\"><a href=\"#arc-login\">Войдите в аккаунт</a>, чтобы "
+"писать комментарии.</p>"
+
+#: inc/actor-image.php:31 inc/actor-image.php:58 inc/category-image.php:31
+#: inc/category-image.php:58
+msgid "Image"
+msgstr "Картинка"
+
+#: inc/actor-image.php:35 inc/actor-image.php:69 inc/category-image.php:35
+#: inc/category-image.php:69
+msgid "Add Image"
+msgstr "Добавить картинку"
+
+#: inc/actor-image.php:36 inc/actor-image.php:70 inc/category-image.php:36
+#: inc/category-image.php:70
+msgid "Remove Image"
+msgstr "Удалить картинку"
+
+#: inc/actors.php:6 inc/actors.php:20
+msgid "Video Actors"
+msgstr "Актеры"
+
+#: inc/actors.php:7
+msgid "Video Actor"
+msgstr "Актер"
+
+#: inc/actors.php:8
+msgid "Search Video Actors"
+msgstr "Искать актеров"
+
+#: inc/actors.php:9
+msgid "Popular Video Actors"
+msgstr "Популярные актеры"
+
+#: inc/actors.php:10
+msgid "All Video Actors"
+msgstr "Все актеры"
+
+#: inc/actors.php:13
+msgid "Edit Video Actor"
+msgstr "Редактировать актера"
+
+#: inc/actors.php:14
+msgid "Update Video Actor"
+msgstr "Обновить актера"
+
+#: inc/actors.php:15
+msgid "Add New Video Actor"
+msgstr "Добавить нового актера"
+
+#: inc/actors.php:16
+msgid "New Video Actor Name"
+msgstr "Добавить имя нового актера"
+
+#: inc/actors.php:17
+msgid "Separate Video Actors with commas"
+msgstr "Раздели актеров запятыми"
+
+#: inc/actors.php:18
+msgid "Add or remove Video Actors"
+msgstr "Добавить или удалить актеров"
+
+#: inc/actors.php:19
+msgid "Choose from the most used Video Actors"
+msgstr "Выберите из самых популярных актеров"
+
+#: inc/ajax-login-register.php:16
+#, php-format
+msgid "Join %s"
+msgstr "Присоединиться %s"
+
+#: inc/ajax-login-register.php:19 inc/ajax-login-register.php:50
+msgid "Username"
+msgstr "Username"
+
+#: inc/ajax-login-register.php:27 inc/ajax-login-register.php:54
+#: template-my-profile.php:110
+msgid "Password"
+msgstr "Password"
+
+#: inc/ajax-login-register.php:36 inc/ajax-login-register.php:59
+#: inc/ajax-login-register.php:76 inc/ajax-login-register.php:83
+msgid "Loading..."
+msgstr "Загрузка...."
+
+#: inc/ajax-login-register.php:36 inc/ajax-login-register.php:87
+msgid "Sign up"
+msgstr "Зарегистрироваться"
+
+#: inc/ajax-login-register.php:42
+msgid "Registration is disabled."
+msgstr "Регистрация недоступна."
+
+#: inc/ajax-login-register.php:47
+#, php-format
+msgid "Login to %s"
+msgstr "Войти как %s"
+
+#: inc/ajax-login-register.php:59 inc/ajax-login-register.php:88
+#: inc/widget-playlist.php:31 template-parts/content-top-bar.php:42
+#: template-parts/content-video.php:161 template-playlists.php:21
+msgid "Login"
+msgstr "Войти"
+
+#: inc/ajax-login-register.php:59
+msgid "Lost Password?"
+msgstr "Забыли пароль?"
+
+#: inc/ajax-login-register.php:67
+msgid "Reset Password"
+msgstr "Сбросить пароль"
+
+#: inc/ajax-login-register.php:68
+msgid ""
+"Enter the username or e-mail you used in your profile. A password reset link "
+"will be sent to you by email."
+msgstr ""
+"Напишите username  или e-mail от вашего профиля. Ссылку на сброс пароля мы "
+"отправим на указанный e-mail."
+
+#: inc/ajax-login-register.php:71
+msgid "Username or E-mail"
+msgstr "Username or E-mail"
+
+#: inc/ajax-login-register.php:76
+msgid "Get new password"
+msgstr "Получить новый пароль"
+
+#: inc/ajax-login-register.php:87
+msgid "Don't have an account?"
+msgstr "Нет аккаунта?"
+
+#: inc/ajax-login-register.php:88
+msgid "Already have an account?"
+msgstr "Уже есть аккаунт?"
+
+#: inc/ajax-login-register.php:111 inc/ajax-login-register.php:138
+#: inc/ajax-login-register.php:199
+msgid "Session token has expired, please reload the page and try again"
+msgstr "Сессия закончена, пожалуйста обновите страницу и попробуйте снова"
+
+#: inc/ajax-login-register.php:115 inc/ajax-login-register.php:143
+#: inc/ajax-login-register.php:203
+msgid "Please fill all form fields"
+msgstr "Пожалуйста заполните поля формы"
+
+#: inc/ajax-login-register.php:121
+msgid "Login successful, reloading page..."
+msgstr "Авторизация успешна, перезагрузка страницы...."
+
+#: inc/ajax-login-register.php:161 inc/ajax-login-register.php:186
+msgid "Registration complete. You can now login."
+msgstr "Регистрация завершена. Можете авторизироваться."
+
+#: inc/ajax-login-register.php:163 template-video-submit.php:69
+msgid "Captcha verification failed, please try again."
+msgstr "Капча не прошла проверку, попробуйте снова."
+
+#: inc/ajax-login-register.php:166 template-video-submit.php:72
+msgid "Please click on the reCAPTCHA box."
+msgstr "Нажмите на Капчу."
+
+#: inc/ajax-login-register.php:216
+msgid "Password Reset. Please check your email."
+msgstr "Пароль сброшен. Проверьте ваш email."
+
+#: inc/ajax-login-register.php:227
+msgid "Please enter a username or e-mail address."
+msgstr "Пожалуйста напишите username or e-mail."
+
+#: inc/ajax-login-register.php:231
+msgid "There is no user registered with that email address."
+msgstr "Пользователь с таким email адресом не зарегистрирован."
+
+#: inc/ajax-login-register.php:241
+msgid "Invalid username or e-mail."
+msgstr "Неверный username или email."
+
+#: inc/ajax-login-register.php:249
+msgid "Password reset is not allowed for this user"
+msgstr "Сброс пароля не доступен для этого пользователя"
+
+#: inc/ajax-login-register.php:261
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Кто-то попросил сбросить пароль для следующей учетной записи:"
+
+#: inc/ajax-login-register.php:263
+#, php-format
+msgid "Username: %s"
+msgstr "Логин: %s"
+
+#: inc/ajax-login-register.php:264
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Если это была ошибка, просто проигнорируйте это письмо."
+
+#: inc/ajax-login-register.php:265
+msgid "To reset your password, visit the following address:"
+msgstr "Чтобы сбросить пароль, посетите следующий адрес:"
+
+#: inc/ajax-login-register.php:272
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Пароль сброшен"
+
+#: inc/ajax-login-register.php:276
+msgid ""
+"The e-mail could not be sent.<br />Possible reason: your host may have "
+"disabled the mail() function."
+msgstr ""
+"Электронное письмо не может быть отправлено. <br /> Возможная причина: "
+"возможно, ваш хост отключил функцию mail ()."
+
+#: inc/ajax-post-like.php:28
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: inc/breadcrumbs.php:87
+msgid "Page"
+msgstr "Страница"
+
+#: inc/category-premium.php:5
+msgid "Set this category as Premium"
+msgstr "Установить эту категорию как Премиум"
+
+#: inc/category-premium.php:24
+msgid "Premium category"
+msgstr "Премиум категория"
+
+#: inc/cpt-blog.php:9 inc/cpt-blog.php:22 inc/widget-video.php:160
+#: template-video-submit.php:181
+msgid "Category"
+msgstr "Рубрика"
+
+#: inc/cpt-blog.php:10 inc/cpt-blog.php:11
+msgid "Add New Category"
+msgstr "Добавить категорию"
+
+#: inc/cpt-blog.php:12
+msgid "Edit Category"
+msgstr "Редактировать категорию"
+
+#: inc/cpt-blog.php:13
+msgid "New Category"
+msgstr "Новая категория"
+
+#: inc/cpt-blog.php:14
+msgid "View Category"
+msgstr "Посмотреть категорию"
+
+#: inc/cpt-blog.php:15
+msgid "Search Categories"
+msgstr "Найти категорию"
+
+#: inc/cpt-blog.php:16
+msgid "No Category found"
+msgstr "Категорий не найдено"
+
+#: inc/cpt-blog.php:17
+msgid "No Category found in Trash"
+msgstr "Нет категорий в корзине"
+
+#: inc/cpt-blog.php:36 inc/cpt-blog.php:49
+msgid "Tag"
+msgstr "Тег"
+
+#: inc/cpt-blog.php:37 inc/cpt-blog.php:38
+msgid "Add New Tag"
+msgstr "Добавить тег"
+
+#: inc/cpt-blog.php:39
+msgid "Edit Tag"
+msgstr "Редактировать тег"
+
+#: inc/cpt-blog.php:40
+msgid "New Tag"
+msgstr "Новый тег"
+
+#: inc/cpt-blog.php:41
+msgid "View Tag"
+msgstr "Смотреть тег"
+
+#: inc/cpt-blog.php:42
+msgid "Search Tags"
+msgstr "Искать тег"
+
+#: inc/cpt-blog.php:43
+msgid "No Tag found"
+msgstr "Тегов не найдено"
+
+#: inc/cpt-blog.php:44
+msgid "No Tag found in Trash"
+msgstr "Нет тегов в корзине"
+
+#: inc/cpt-blog.php:65 inc/cpt-blog.php:76 inc/cpt-blog.php:82
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/cpt-blog.php:66
+msgid "Article"
+msgstr "Статья"
+
+#: inc/cpt-blog.php:67 inc/cpt-blog.php:68
+msgid "Add Article"
+msgstr "Добавить статью"
+
+#: inc/cpt-blog.php:69
+msgid "Edit Article"
+msgstr "Редактировать статью"
+
+#: inc/cpt-blog.php:70
+msgid "New Article"
+msgstr "Новая статья"
+
+#: inc/cpt-blog.php:71
+msgid "View Article"
+msgstr "Посмотреть статью"
+
+#: inc/cpt-blog.php:72
+msgid "Search Article"
+msgstr "Найти статью"
+
+#: inc/cpt-blog.php:73
+msgid "No Article found"
+msgstr "Статьи не найдено"
+
+#: inc/cpt-blog.php:74
+msgid "No Article found in Trash"
+msgstr "Нет статей в корзине"
+
+#: inc/cpt-photos.php:8
+msgid "Photo Categories"
+msgstr "Фото категории"
+
+#: inc/cpt-photos.php:9 inc/cpt-photos.php:21
+msgid "Photo Category"
+msgstr "Фото категория"
+
+#: inc/cpt-photos.php:10 inc/cpt-photos.php:11
+msgid "Add New Photo Category"
+msgstr "Добавить категорию фото"
+
+#: inc/cpt-photos.php:12
+msgid "Edit Photo Category"
+msgstr "Редактировать категорию фото"
+
+#: inc/cpt-photos.php:13
+msgid "New Photo Category"
+msgstr "Новая фото категория"
+
+#: inc/cpt-photos.php:14
+msgid "View Photo Category"
+msgstr "Посмотреть фото категорию"
+
+#: inc/cpt-photos.php:15
+msgid "Search Photo Categories"
+msgstr "Найти фото категорию"
+
+#: inc/cpt-photos.php:16
+msgid "No Photo Category found"
+msgstr "Фото категорий не найдено"
+
+#: inc/cpt-photos.php:17
+msgid "No Photo Category found in Trash"
+msgstr "Нет фото категорий в корзине"
+
+#: inc/cpt-photos.php:34
+msgid "Photo Tags"
+msgstr "Фото теги"
+
+#: inc/cpt-photos.php:35 inc/cpt-photos.php:47
+msgid "Photo Tag"
+msgstr "Фото тег"
+
+#: inc/cpt-photos.php:36 inc/cpt-photos.php:37
+msgid "Add New Photo Tag"
+msgstr "Добавить фото тег"
+
+#: inc/cpt-photos.php:38
+msgid "Edit Photo Tag"
+msgstr "Редактировать фото тег"
+
+#: inc/cpt-photos.php:39
+msgid "New Photo Tag"
+msgstr "Новый фото тег"
+
+#: inc/cpt-photos.php:40
+msgid "View Photo Tag"
+msgstr "Посмотреть фото тег"
+
+#: inc/cpt-photos.php:41
+msgid "Search Photo Tags"
+msgstr "Искать фото тег"
+
+#: inc/cpt-photos.php:42
+msgid "No Photo Tag found"
+msgstr "Фото тегов не найдено"
+
+#: inc/cpt-photos.php:43
+msgid "No Photo Tag found in Trash"
+msgstr "Нет фото тегов в корзине"
+
+#: inc/cpt-photos.php:60 inc/cpt-photos.php:71 inc/cpt-photos.php:77
+msgid "Photos"
+msgstr "Фото"
+
+#: inc/cpt-photos.php:61
+msgid "Photo"
+msgstr "Фото"
+
+#: inc/cpt-photos.php:62 inc/cpt-photos.php:63
+msgid "Add Photo"
+msgstr "Добавить фото"
+
+#: inc/cpt-photos.php:64
+msgid "Edit Photo"
+msgstr "Редактировать фото"
+
+#: inc/cpt-photos.php:65
+msgid "New Photo"
+msgstr "Новое фото"
+
+#: inc/cpt-photos.php:66
+msgid "View Photo"
+msgstr "Посмотреть фото"
+
+#: inc/cpt-photos.php:67
+msgid "Search Photo"
+msgstr "Искать фото"
+
+#: inc/cpt-photos.php:68
+msgid "No Photo found"
+msgstr "Фото не найдено"
+
+#: inc/cpt-photos.php:69
+msgid "No Photo found in Trash"
+msgstr "Нет фото в корзине"
+
+#: inc/pagination.php:30
+msgid "First"
+msgstr "Первая"
+
+#: inc/pagination.php:34
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: inc/pagination.php:48
+msgid "Next"
+msgstr "Следующая"
+
+#: inc/pagination.php:52
+msgid "Last"
+msgstr "Последняя"
+
+#: inc/playlists.php:6 inc/playlists.php:19
+msgid "Video Playlists"
+msgstr "Видео плейлисты"
+
+#: inc/playlists.php:7
+msgid "Video Playlist"
+msgstr "Видео плейлист"
+
+#: inc/playlists.php:8
+msgid "Search Video Playlists"
+msgstr "Найти видео плейлисты"
+
+#: inc/playlists.php:9
+msgid "Popular Video Playlists"
+msgstr "Популярные плейлисты"
+
+#: inc/playlists.php:10
+msgid "All Video Playlists"
+msgstr "Добавить плейлист"
+
+#: inc/playlists.php:13
+msgid "Edit Video Playlist"
+msgstr "Редактировать плейлист"
+
+#: inc/playlists.php:14
+msgid "Update Video Playlist"
+msgstr "Обновить плейлист"
+
+#: inc/playlists.php:15
+msgid "Add New Video Playlist"
+msgstr "Добавить новый плейлист"
+
+#: inc/playlists.php:16
+msgid "New Video Playlist Name"
+msgstr "Новое название плейлиста"
+
+#: inc/playlists.php:17
+msgid "Add or remove Video Playlists"
+msgstr "Добавить или удалить плейлист"
+
+#: inc/playlists.php:18
+msgid "Choose from the most used Video Playlists"
+msgstr "Выберите из самых популярных плейлистов"
+
+#: inc/playlists.php:20
+msgid "No playlists found."
+msgstr "Плейлисты не найдены."
+
+#: inc/post-like.php:23
+msgid "I like this"
+msgstr "Мне нравится"
+
+#: inc/post-like.php:23
+msgid "Like"
+msgstr "Нравится"
+
+#: inc/post-like.php:25
+msgid "I dislike this"
+msgstr "Мне не нравится"
+
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Опубликовано в %1$s"
+
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+#: inc/template-tags.php:83 inc/video-functions.php:129
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставить комментарий<span class=\"screen-reader-text\"> на %s</span>"
+
+#: inc/template-tags.php:100
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Редактировать <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/widget-playlist.php:6
+msgid "Display blocks of playlists"
+msgstr "Отобразить блок плейлистов"
+
+#: inc/widget-playlist.php:27 inc/widget-video.php:118
+msgid "More videos"
+msgstr "Загрузить еще"
+
+#: inc/widget-playlist.php:30 template-parts/content-video.php:160
+#: template-playlists.php:20
+msgid "You need to "
+msgstr "Вы должны"
+
+#: inc/widget-playlist.php:32 template-parts/content-top-bar.php:43
+#: template-parts/content-video.php:162 template-playlists.php:22
+msgid "Or"
+msgstr "Или"
+
+#: inc/widget-playlist.php:33 template-parts/content-top-bar.php:44
+#: template-parts/content-video.php:163 template-playlists.php:23
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: inc/widget-playlist.php:61
+msgid "<p>You don`t have any playlist yet</p>"
+msgstr "<p>У вас еще нет плейлистов</p>"
+
+#: inc/widget-playlist.php:71 inc/widget-video.php:137
+#: template-video-submit.php:156
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/widget-playlist.php:73
+msgid "Total playlists"
+msgstr "Количество плейлистов"
+
+#: inc/widget-video.php:10
+msgid ""
+"Display blocks of videos sorted by views, date, popularity, category, etc."
+msgstr ""
+"Отобразить видео, отсортированные по просмотрам, дате, популярности, "
+"категориям и т.д."
+
+#: inc/widget-video.php:140
+msgid "Total videos"
+msgstr "Всего видео"
+
+#: inc/widget-video.php:142
+msgid "Display"
+msgstr "Отобразить"
+
+#: inc/widget-video.php:151 template-parts/content-related.php:13
+msgid "Related videos"
+msgstr "Популярные видео"
+
+#: inc/widget-video.php:163 template-parts/inside-dashboard.php:6
+#: template-parts/inside-dashboard.php:21 template-parts/tabs-inside.php:57
+#: template-parts/tabs-inside.php:69
+msgid "All"
+msgstr "Все"
+
+#: search.php:13
+#, php-format
+msgid "Search results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: search.php:24 template-parts/content-none.php:3
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: search.php:25
+msgid ""
+"It looks like nothing was found for this search. Maybe try one of the links "
+"below or a new search?"
+msgstr ""
+"Похоже, по этому запросу ничего не найдено. Может быть, попробуйте одну из "
+"ссылок ниже или новый поиск?"
+
+#: template-my-profile.php:17
+msgid "The passwords you entered do not match. Your password was not updated."
+msgstr "Введенные пароли не совпадают. Ваш пароль не обновлен."
+
+#: template-my-profile.php:24
+msgid "The Email you entered is not valid. Please try again."
+msgstr ""
+"Введенный адрес электронной почты недействителен. Пожалуйста, попробуйте еще "
+"раз."
+
+#: template-my-profile.php:26
+msgid "This email is already used by another user. Try a different one."
+msgstr ""
+"Этот адрес электронной почты уже используется другим пользователем. "
+"Попробуйте другой."
+
+#: template-my-profile.php:61
+msgid "Your profile has been updated."
+msgstr "Ваш профиль был обновлен."
+
+#: template-my-profile.php:66
+msgid "First Name"
+msgstr "Имя"
+
+#: template-my-profile.php:70
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: template-my-profile.php:74
+msgid "Display Name as"
+msgstr "Отображать имя как"
+
+#: template-my-profile.php:114
+msgid "Repeat Password"
+msgstr "Сбросить пароль"
+
+#: template-my-profile.php:118
+msgid "Biographical Information"
+msgstr "О себе"
+
+#: template-my-profile.php:127
+msgid "Update your profile"
+msgstr "Обновить профиль"
+
+#: template-my-profile.php:133 template-video-submit.php:367
+#, php-format
+msgid ""
+"You must be logged to submit a video. Please <a href=\"%s\">login</a> or <a "
+"href=\"%s\">register</a> a new account."
+msgstr ""
+"Вы должны войти, чтобы отправить видео. Пожалуйста, <a href=\"%s\"> войдите "
+"</a> или <a href=\"%s\"> зарегистрируйте </a> новую учетную запись."
+
+#: template-parts/content-header-search.php:7
+#: template-parts/content-header-search.php:8
+#: template-parts/content-header-search.php:9
+msgid "Search..."
+msgstr "Поиск...."
+
+#: template-parts/content-none.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свой первый пост? <a href=\"%1$s\"> Начните здесь </a>."
+
+#: template-parts/content-none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не соответствовало вашим условиям поиска. Пожалуйста, "
+"попытайтесь снова с другими ключевыми словами."
+
+#: template-parts/content-none.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск поможет."
+
+#: template-parts/content-page.php:9 template-parts/content-standard.php:18
+#: template-parts/content.php:53
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: template-parts/content-page.php:20
+#, php-format
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+#: template-parts/content-photos.php:12
+msgid "Loading photos"
+msgstr "Загрузка фото"
+
+#: template-parts/content-playlist.php:13
+msgid "No created playlist yet"
+msgstr "Плейлисты еще не созданы"
+
+#: template-parts/content-playlist.php:15
+msgid "Create or Add to playlist"
+msgstr "Создать плейлист или добавить видео в существующий"
+
+#: template-parts/content-playlist.php:29
+msgid "This video isn`t in playlist"
+msgstr "Это видео не добавлено в плейлист"
+
+#: template-parts/content-playlist.php:30
+msgid "Video in playlist(s)"
+msgstr "Видео в плейлисте(ах)"
+
+#: template-parts/content-playlist.php:37
+msgid "Watch playlist"
+msgstr "Смотреть плейлист"
+
+#: template-parts/content-playlist.php:38
+msgid "Remove video"
+msgstr "Удалить видео"
+
+#: template-parts/content-playlist.php:52
+msgid "Add video to existing playlist or create new"
+msgstr "Добавить видео в существующий плейлист или создать новый плейлист"
+
+#: template-parts/content-playlist.php:57
+msgid "Existing playlists"
+msgstr "Существующие плейлисты"
+
+#: template-parts/content-playlist.php:59
+msgid "Choose playlist"
+msgstr "Выберите плейлист"
+
+#: template-parts/content-playlist.php:73
+msgid "Playlist title"
+msgstr "Заголовок плейлиста"
+
+#: template-parts/content-playlist.php:78
+msgid "Playlist description"
+msgstr "Описание плейлиста"
+
+#: template-parts/content-playlist.php:86
+msgid "Create and add video"
+msgstr "Создать и добавить видео"
+
+#: template-parts/content-related-photos.php:22
+msgid "Related photos"
+msgstr "Похожие фотографии"
+
+#: template-parts/content-related.php:27
+msgid "Show more related videos"
+msgstr "Показать больше похожих видео"
+
+#: template-parts/content-standard.php:14
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее %s <span class = \"meta-nav\"> &rarr; </span>"
+
+#: template-parts/content-top-bar.php:6
+msgid "Follow us:"
+msgstr "Следить за нами:"
+
+#: template-parts/content-top-bar.php:28
+msgid "Submit a Video"
+msgstr "Добавить видео"
+
+#: template-parts/content-top-bar.php:32
+msgid "My Channel"
+msgstr "Мой канал"
+
+#: template-parts/content-top-bar.php:36
+msgid "My Profile"
+msgstr "Мой профиль"
+
+#: template-parts/content-top-bar.php:39
+msgid "Logout"
+msgstr "Выйти"
+
+#: template-parts/content-top-bar.php:41
+msgid "Welcome Guest"
+msgstr "Добро пожаловать, гость"
+
+#: template-parts/content-video-player.php:328
+#: template-parts/content-video-player.php:342
+#: template-parts/content-video-player.php:348
+msgid "Close Advertising"
+msgstr "Закрыть рекламу"
+
+#: template-parts/content-video.php:41
+msgid "Download video now!"
+msgstr "Скачать видео сейчас!"
+
+#: template-parts/content-video.php:53
+msgid "Download complete video now!"
+msgstr "Скачать видео сейчас!"
+
+#: template-parts/content-video.php:65
+msgid "Add to playlist"
+msgstr "Добавить в плейлист"
+
+#: template-parts/content-video.php:66
+msgid "About"
+msgstr "Подробнее"
+
+#: template-parts/content-video.php:68
+msgid "Share"
+msgstr "Поделиться"
+
+#: template-parts/content-video.php:78
+msgid "views"
+msgstr "просмотры"
+
+#: template-parts/content-video.php:131
+msgid "From"
+msgstr "От"
+
+#: template-parts/content-video.php:136 template-parts/tabs-inside.php:52
+msgid "Date"
+msgstr "Дата"
+
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее <span class = \"screen-reader-text\"> \"%s\" </span>"
+
+#: template-parts/inside-dashboard.php:4
+msgid "Themes"
+msgstr "Темы"
+
+#: template-parts/inside-dashboard.php:7 template-parts/inside-dashboard.php:22
+#: tgm-activation/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Активен"
+
+#: template-parts/inside-dashboard.php:8 template-parts/inside-dashboard.php:23
+msgid "Not active"
+msgstr "Не активен"
+
+#: template-parts/inside-dashboard.php:9 template-parts/inside-dashboard.php:24
+msgid "Not installed"
+msgstr "Не установлен"
+
+#: template-parts/inside-dashboard.php:19 template-parts/page-tabs.php:11
+msgid "Plugins"
+msgstr "Плагины"
+
+#: template-parts/loop-blog.php:16
+msgid "in"
+msgstr "в"
+
+#: template-parts/page-tabs.php:3
+msgid "AUTO IMPORT VIDEOS"
+msgstr "АВТО ИМПОРТ ВИДЕО"
+
+#: template-parts/page-tabs.php:7
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: template-parts/page-tabs.php:14
+msgid "Player Options"
+msgstr "Настройки плеера"
+
+#: template-parts/page-tabs.php:16
+msgid "Single Videos Embedder"
+msgstr "Single Videos Embedder"
+
+#: template-parts/page-tabs.php:18
+msgid "Mass Videos Grabber"
+msgstr "Mass Videos Grabber"
+
+#: template-parts/page-tabs.php:20
+msgid "Mass Videos Embedder"
+msgstr "Mass Videos Embedder"
+
+#: template-parts/page-tabs.php:22
+msgid "Delete broken videos"
+msgstr "Удалить битые видео"
+
+#: template-parts/page-tabs.php:27
+msgid "Popup Options"
+msgstr "Настройки всплывающего окна"
+
+#: template-parts/page-tabs.php:31
+msgid "Subscribers"
+msgstr "Подписчики"
+
+#: template-parts/page-tabs.php:35
+msgid "Logs"
+msgstr "Логирование"
+
+#: template-parts/page-tabs.php:40
+msgid "Help"
+msgstr "Помощь"
+
+#: template-parts/tabs-inside.php:58
+msgid "Success"
+msgstr "Успех"
+
+#: template-parts/tabs-inside.php:59
+msgid "Notice"
+msgstr "Уведомление"
+
+#: template-parts/tabs-inside.php:60
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: template-parts/tabs-inside.php:61
+msgid "Error"
+msgstr "Ошибка"
+
+#: template-parts/tabs-inside.php:67
+msgid "Product"
+msgstr "Продукт"
+
+#: template-parts/tabs-inside.php:75
+msgid "Message"
+msgstr "Сообщение"
+
+#: template-parts/tabs-inside.php:81
+msgid "Location"
+msgstr "Расположение"
+
+#: template-parts/tabs-inside.php:109
+msgid "Get a full adult site in minutes"
+msgstr "Получить наполненный сайт за минуты"
+
+#: template-parts/tabs-inside.php:111
+msgid "Begin import videos now"
+msgstr "Начать импорт видео прямо сейчас"
+
+#: template-parts/tabs-inside.php:122
+msgid "Prepare data for import. Do not leave the page!"
+msgstr "Подготавливаем данные для импорта. Не покидайте страницу!"
+
+#: template-parts/tabs-inside.php:123
+msgid "Began creating categories and import videos. Do not leave the page!"
+msgstr "Началось создание категорий и импорта видео. Не покидайте страницу!"
+
+#: template-parts/tabs-inside.php:136
+msgid "You have already created full site!"
+msgstr "Вы уже создали полный сайт!"
+
+#: template-playlists.php:32
+msgid "You don`t have any playlist yet"
+msgstr "У вас еще нет плейлиста"
+
+#: template-video-submit.php:67 template-video-submit.php:127
+msgid "Thanks for submitting a video! Your submission is being moderated."
+msgstr "Спасибо за отправку видео! Ваше сообщение проходит модерацию."
+
+#: template-video-submit.php:154
+msgid "Video infos"
+msgstr "Видео информация"
+
+#: template-video-submit.php:159
+msgid "Description"
+msgstr "Описание"
+
+#: template-video-submit.php:163
+msgid "Video type"
+msgstr "Тип видео"
+
+#: template-video-submit.php:168
+msgid "Upload file .mp4 .webm"
+msgstr "Загрузить файл .mp4 .webm"
+
+#: template-video-submit.php:172
+msgid "Iframe / Embed code"
+msgstr "Iframe / Код для вставки"
+
+#: template-video-submit.php:176
+msgid "Video details"
+msgstr "Детали видео"
+
+#: template-video-submit.php:178
+msgid "Thumbnail URL"
+msgstr "URL для миниатюры превью"
+
+#: template-video-submit.php:189 template-video-submit.php:192
+msgid "separated by commas"
+msgstr "разделенные запятыми"
+
+#: template-video-submit.php:195
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: template-video-submit.php:210
+msgid "hour"
+msgstr "часов"
+
+#: template-video-submit.php:226
+msgid "min"
+msgstr "минут"
+
+#: template-video-submit.php:291
+msgid "sec"
+msgstr "секунд"
+
+#: template-video-submit.php:364
+msgid "Submit a video"
+msgstr "Добавить видео"
+
+#: template-video-submit.php:370
+msgid "Video submission is disabled."
+msgstr "Отправка видео отключена."
+
+#: tgm-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Установить необходимые плагины"
+
+#: tgm-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: tgm-activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина:%s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина:%s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+#: tgm-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику требуемых плагинов"
+
+#: tgm-activation/class-tgm-plugin-activation.php:393
+#: tgm-activation/class-tgm-plugin-activation.php:920
+#: tgm-activation/class-tgm-plugin-activation.php:2626
+#: tgm-activation/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Вернуться в панель управления"
+
+#: tgm-activation/class-tgm-plugin-activation.php:394
+#: tgm-activation/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: tgm-activation/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr "Следующий плагин был успешно активирован:"
+
+#: tgm-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не принято. Плагин %1$ s уже был активен."
+
+#: tgm-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Для этой темы требуется более поздняя версия %s. "
+"Пожалуйста, обновите плагин."
+
+#: tgm-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины успешно установлены и активированы. %1$s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Закрыть это уведомление"
+
+#: tgm-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "Закрыть это уведомление"
+
+#: tgm-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь за помощью к администратору этого сайта."
+
+#: tgm-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: tgm-activation/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Вместо этого установите переменную конфигурации parent_slug."
+
+#: tgm-activation/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Пакет удаленного плагина не содержит папки с нужным слагом, и переименование "
+"не сработало."
+
+#: tgm-activation/class-tgm-plugin-activation.php:1027
+#: tgm-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Пожалуйста, свяжитесь с поставщиком плагина и попросите его упаковать свой "
+"плагин в соответствии с рекомендациями WordPress."
+
+#: tgm-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Пакет удаленного плагина состоит из более чем одного файла, но файлы не "
+"упакованы в папку."
+
+#: tgm-activation/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Обязательный"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Рекомендуемый"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress репозиторий"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Распакованный"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Не установлены"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Установлены, но не активированы"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Обновление рекомендуется"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2435
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2575
+msgid "unknown"
+msgstr "неизвестный"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Минимальная необходимая версия:"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: tgm-activation/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Плагин"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Источник"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Тип"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Версия"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Статус"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Установить"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Обновить"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Активировать"
+
+#: tgm-activation/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Плагины для установки не выбраны. Никаких действий не принято."
+
+#: tgm-activation/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Плагины для обновления не выбраны. Никаких действий не принято."
+
+#: tgm-activation/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "В настоящее время нет доступных плагинов для установки."
+
+#: tgm-activation/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "В настоящее время нет доступных плагинов для обновления."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Плагины для активации не выбраны. Никаких действий не принято."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "В настоящее время нет доступных плагинов для активации."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Ошибка активации плагина."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#: tgm-activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось установить %1$s ."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Начинается процесс установки и активации. На некоторых хостах этот процесс "
+"может занять некоторое время, поэтому проявите терпение."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и успешно активирован."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3602
+#: tgm-activation/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: tgm-activation/class-tgm-plugin-activation.php:3602
+#: tgm-activation/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: tgm-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: tgm-activation/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесс установки начинается. На некоторых хостах этот процесс может занять "
+"некоторое время, поэтому проявите терпение."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s установлен успешно."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Все установки и активации завершены."
+
+#: tgm-activation/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#~ msgid "QUICK START"
+#~ msgstr "Быстрый старт"
+
+#~ msgid "Begin Now"
+#~ msgstr "Начать сейчас"
+
+#~ msgid "Skip to content"
+#~ msgstr "Перейти к содержимому"
+
+#~ msgid "Accept"
+#~ msgstr "Принять"
+
+#~ msgid "Cancel"
+#~ msgstr "Отменить"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Вы уверены, что хотите удалить?"
+
+#~ msgid "Validation"
+#~ msgstr "Валидация"
+
+#~ msgid "Please enter a valid url"
+#~ msgstr "Пожалуйста напишите валидный url."
+
+#~ msgid "Reset values"
+#~ msgstr "Сбросить данные"
+
+#~ msgid "Upload image"
+#~ msgstr "Загрузить картинку"
+
+#~ msgid "Upload video"
+#~ msgstr "Загрузить видео"
+
+#~ msgid "Add new"
+#~ msgstr "Добавить новое"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Import"
+#~ msgstr "Загрузить"
+
+#~ msgid "From file"
+#~ msgstr "Из файла"
+
+#~ msgid "From url"
+#~ msgstr "По ссылке"
+
+#~ msgid "Download"
+#~ msgstr "Скачать"
